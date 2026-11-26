@@ -1,0 +1,25 @@
+# 构建中间产物
+*.o
+simple-todo-c/TodoApp_cap.exe
+simple-todo-c/TodoApp_dbg.exe
+
+# 测试与截图工作目录（含隔离的模拟数据、临时脚本）
+_ui_preview/
+
+# 本地 AI 记忆与个人笔记
+.workbuddy/
+
+# 一次性迁移脚本
+_patch*.py
+_pull.py
+_push.py
+_ssh.py
+
+# 历史遗留，不入库：废弃的 Python/tkinter 前身实现及其打包文档、旧版说明
+simple-todo-c/todo.py
+simple-todo-c/打包指南.md
+simple-todo-c/README.md
+
+# 系统文件
+Thumbs.db
+desktop.ini
