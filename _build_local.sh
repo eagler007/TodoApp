@@ -16,7 +16,7 @@ done
 echo "  CC lib/cJSON.c"
 gcc $CFLAGS -c lib/cJSON.c -o lib/cJSON.o
 echo "  RC resource.rc"
-windres -i resource.rc -o resource.o
+windres --codepage=65001 -i resource.rc -o resource.o
 
 echo "  LINK TodoApp.exe"
 gcc $CFLAGS -s -o TodoApp.exe main.o app.o app_ui.o theme.o config.o weather.o startup.o ui.o calendar.o pie.o trend.o dlg.o menu.o \

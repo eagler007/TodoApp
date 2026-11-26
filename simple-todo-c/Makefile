@@ -11,7 +11,7 @@ lib/cJSON.o: lib/cJSON.c lib/cJSON.h
 	$(CC) $(CFLAGS) -c lib/cJSON.c -o lib/cJSON.o
 
 resource.o: resource.rc
-	$(WINDRES) -i resource.rc -o resource.o
+	$(WINDRES) -c 65001 -i resource.rc -o resource.o
 
 util.o: util.c util.h
 	$(CC) $(CFLAGS) -c util.c -o util.o
