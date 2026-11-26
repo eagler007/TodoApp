@@ -1,8 +1,14 @@
 # TodoApp
 
-纯 C + Win32 API 编写的原生 Windows 桌面程序，无 WebView、无第三方 UI 框架、无运行时依赖，单个 exe 约 311 KB。
+纯 C + Win32 API 编写的原生 Windows 桌面程序，无 WebView、无第三方 UI 框架、无运行时依赖，单个 exe 约 312 KB（319,488 B）。
 
 界面全部自绘：自绘标题栏、自绘按钮/下拉框/四象限卡片/环形图/趋势图，浅色与深色两套主题。
+
+## 版本
+
+当前 **v1.0.0**。exe 内含完整版本资源（文件版本 `1.0.0.0`、产品名 `TodoApp`、描述、版权）。
+
+发行版下载：<https://github.com/eagler007/TodoApp/releases>
 
 ## 功能
 
